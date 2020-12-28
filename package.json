@@ -3,6 +3,7 @@
   "displayName": "Greyburst Theme",
   "description":  "Greyburst Theme is a lighter alternative to the Sunburst Theme",
   "publisher":  "zewish",
+  "license": "MIT",
   "icon":  "icon.png",
   "homepage":  "https://github.com/zewish/greyburst-vscode-theme",
   "repository":  {
