@@ -1,4 +1,4 @@
-name: Relases to Open VSX and Marketplace
+name: Release template
 on: [push]
 jobs:
   build:
