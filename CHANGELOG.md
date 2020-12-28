@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.4] - 2020-12-28
+
+- Make sure releases are reproducible and add CI environment
+
 ## [0.0.3] - 2020-12-28
 
 - Fix background color of statusbar color when there are no files selected
