@@ -1,0 +1,21 @@
+{
+  "name": "greyburst",
+  "displayName": "greyburst",
+  "publisher":  "zewish",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Greyburst",
+        "uiTheme": "vs-dark",
+        "path": "./themes/greyburst-color-theme.json"
+      }
+    ]
+  }
+}
