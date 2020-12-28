@@ -1,0 +1,19 @@
+name: Relases to Open VSX and Marketplace
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: 14.x
+        check-latest: true
+    - run: npm install -g ovsx vsce
+    - run: vsce package -o greyburst.vsix
+    - run: ovsx publish greyburst.vsix -p $OPEN_VSX_TOKEN
+      env:
+        OPEN_VSX_TOKEN: ${{ secrets.OPEN_VSX_TOKEN }}
+    - run: vsce publish --packagePath greyburst.vsix -p $MARKETPLACE_TOKEN
+      env:
+        MARKETPLACE_TOKEN: ${{ secrets.MARKETPLACE_TOKEN }}
