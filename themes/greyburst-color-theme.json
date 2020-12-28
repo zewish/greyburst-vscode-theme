@@ -12,6 +12,7 @@
     "tab.activeBackground": "#282828",
     "editorGutter.background": "#303030",
     "sideBar.background": "#303030",
+    "statusBar.noFolderBackground": "#303030",
     "sideBar.border": "#1D1F21",
     "focusBorder": "#ffffff00",
     "pickerGroup.foreground": "#F8F8F2",
@@ -19,7 +20,7 @@
     "list.focusBackground": "#49483E",
     "list.focusForeground": "#FFFFFF",
     "list.hoverBackground": "#FFFFFF00",
-    "list.inactiveSelectionBackground": "#444444"
+    "list.inactiveSelectionBackground": "#444444",
   },
   "tokenColors": [
     {
