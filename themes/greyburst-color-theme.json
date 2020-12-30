@@ -7,7 +7,10 @@
     "sideBarTitle.foreground": "#F8F8F2",
     "statusBar.background": "#1B1D1F",
     "editor.selectionBackground": "#49483E",
+    "editor.selectionHighlightBorder": "#DDDDDD",
     "editor.selectionHighlightBackground": "#49483E",
+    "editor.lineHighlightBorder": "#ffffff00",
+    "editor.lineHighlightBackground": "#3F3E38",
     "tab.inactiveBackground": "#454545",
     "tab.activeBackground": "#282828",
     "editorGutter.background": "#303030",
@@ -21,6 +24,9 @@
     "list.focusForeground": "#FFFFFF",
     "list.hoverBackground": "#FFFFFF00",
     "list.inactiveSelectionBackground": "#444444",
+    "button.background": "#49483E",
+    "textLink.foreground": "#65D9EF",
+    "textLink.activeForeground": "#65D9EF"
   },
   "tokenColors": [
     {
