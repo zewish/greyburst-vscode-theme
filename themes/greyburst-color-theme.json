@@ -228,7 +228,6 @@
         "foreground": "#65D9EF"
       }
     },
-    // @TODO!
     {
       "name": "CSS Class and Support",
       "scope": [
