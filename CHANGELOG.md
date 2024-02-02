@@ -1,5 +1,19 @@
 # Change Log
 
+## [0.0.8] - 2024-02-02
+
+- Always build with node.js LTS
+- Improve syntax highlighting - TypeScript & Babel JavaScript should look almost identical now
+- Use different colors for punctuation so it is a bit more visible
+
+## [0.0.7] - 2021-12-21
+
+- Build with node.js 16
+
+## [0.0.6] - 2021-12-21
+
+- Cleanup - remove forgotten comment
+
 ## [0.0.5] - 2020-12-30
 
 - Improve line highlight and add more contrast to matching words

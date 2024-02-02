@@ -72,7 +72,11 @@
       "name": "Keyword",
       "scope": [
         "keyword",
-        "keyword.operator"
+        "keyword.operator",
+        "punctuation.separator.key-value",
+        "punctuation.decorator",
+        "punctuation.accessor",
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#F92572"
@@ -94,7 +98,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#F8F8F2",
+        "foreground": "#F8F8F2"
       }
     },
     {
@@ -191,21 +195,71 @@
       }
     },
     {
-      "name": "Class, Support",
+      "name": "Class",
       "scope": [
         "entity.name",
-        "support.type",
-        "support.class",
-        "support.orther.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#65D9EF"
+      }
+    },
+    {
+      "name": "Types, Class types",
+      "scope": [
+        "support.type",
+        "entity.name.type",
         "entity.other.inherited-class",
+        "support.type.sys-types"
       ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#65D9EF"
+      }
+    },
+    {
+      "name": "Global objects",
+      "scope": [
+        "support.type.object"
+      ],
+      "settings": {
+        "foreground": "#F8F8F2"
+      }
+    },
+    {
+      "name": "Support, Global calls",
+      "scope": [
+        "support.class",
+        "support.function",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php"
+      ],
+      "settings": {
+        "foreground": "#9FD92D"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "keyword.operator.private.js",
+        "entity.name.class.decorator.js",
+        "variable.other.readwrite.decorator.js",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },
+    {
+      "name": "Function Name",
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#9FD92D"
       }
     },
     {
@@ -216,16 +270,6 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "Entity Types",
-      "scope": [
-        "support.type"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#65D9EF"
       }
     },
     {
@@ -305,17 +349,6 @@
       ],
       "settings": {
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "Decorators",
-      "scope": [
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#82AAFF"
       }
     },
     {
