@@ -73,7 +73,8 @@
       "scope": [
         "keyword",
         "keyword.operator",
-        "punctuation.separator.key-value",
+        "punctuation.separator.key-value.ts",
+        "punctuation.separator.key-value.js",
         "punctuation.decorator",
         "punctuation.accessor",
         "support.type.object.module"

@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.0] - 2024-02-02
+
+- Fix minor punctuation issue with YAML
+
 ## [0.0.8] - 2024-02-02
 
 - Always build with node.js LTS
